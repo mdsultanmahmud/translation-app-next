@@ -8,8 +8,10 @@ export default function Index() {
     <>
       <Navbar />
       <div dir={direc}>
-        <h1>{t("title")}</h1>
-        <p>{t("paragraph")}</p>
+        <div className="border p-4 m-8 rounded-lg">
+          <h1 className="uppercase font-semibold">{t("title")}</h1>
+          <p>{t("paragraph")}</p>
+        </div>
       </div>
     </>
   );

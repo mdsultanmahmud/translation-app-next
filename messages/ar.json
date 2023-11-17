@@ -1,17 +1,39 @@
 {
   "Index": {
-    "title": "مرحبًا بالعالم!",
-    "paragraph": "الفقرة للاختبار",
-    "dir": "rtl"
+    "title": "مرحبًا بك في عالمنا!",
+    "paragraph": "مرحبًا بك في الصفحة الرئيسية لموقعنا. استكشف محتوى متنوع يلبي مختلف الاهتمامات.",
+    "dir": "rtl",
+    "featuredItems": [
+      { "title": "أحدث المقالات", "link": "/articles" },
+      { "title": "الفعاليات القادمة", "link": "/events" },
+      { "title": "مقاطع الفيديو المميزة", "link": "/videos" }
+    ],
+    "promotionalBanner": "لا تفوت عروضنا الحصرية هذا الشهر!"
   },
   "About": {
-    "title": "صفحة عنا",
-    "paragraph": "هذه هي صفحة عنا",
-    "dir": "rtl"
+    "title": "من نحن",
+    "paragraph": "اكتشف القصة وراء منظمتنا. نحن ملتزمون بتقديم محتوى وخدمات عالية الجودة لجمهورنا.",
+    "dir": "rtl",
+    "teamMembers": [
+      { "name": "جون دو", "position": "الرئيس التنفيذي" },
+      { "name": "جين سميث", "position": "مدير الإبداع" },
+      { "name": "روبرت جونسون", "position": "مدير التسويق" }
+    ],
+    "missionStatement": "تمكين الأفراد من خلال المعلومات والإبداع."
   },
   "Contact": {
-    "title": "صفحة الاتصال",
-    "paragraph": "هذه صفحتنا للاتصال",
-    "dir": "rtl"
+    "title": "اتصل بنا",
+    "paragraph": "تواصل معنا لأي استفسارات، تعاون، أو حتى لتقول مرحبًا. نحن نقدر ملاحظاتك!",
+    "dir": "rtl",
+    "contactDetails": {
+      "email": "info@example.com",
+      "phone": "+1 (555) 123-4567",
+      "address": "123 شارع الرئيسي، سيتيفيل"
+    },
+    "socialMedia": [
+      { "platform": "تويتر", "link": "https://twitter.com/example" },
+      { "platform": "فيسبوك", "link": "https://www.facebook.com/example" },
+      { "platform": "إنستغرام", "link": "https://www.instagram.com/example" }
+    ]
   }
 }

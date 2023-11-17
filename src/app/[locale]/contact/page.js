@@ -9,9 +9,10 @@ const ContactPage = () => {
     <>
       <Navbar />
       <div dir={direc}>
-        <h1>{t("title")}</h1>
-        <p>{t("paragraph")}</p>
-        <Link href={"/en/about"}>About</Link>
+        <div className="mt-5">
+          <h1 className="text-2xl uppercase">{t("title")}</h1>
+          <p>{t("paragraph")}</p>
+        </div>
       </div>
     </>
   );

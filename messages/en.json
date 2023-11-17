@@ -1,17 +1,17 @@
 {
   "Index": {
     "title": "Hello world!",
-    "paragraph": "the paragraph for testing",
+    "paragraph": "Welcome to the dynamic world of our website. Explore a variety of content that caters to different interests.",
     "dir": "ltr"
   },
   "About": {
-    "title": "About Page",
-    "paragraph": "This is about page",
+    "title": "About Us",
+    "paragraph": "Discover the story behind our organization. We are passionate about providing quality content and services to our audience.",
     "dir": "ltr"
   },
   "Contact": {
-    "title": "Contact Page",
-    "paragraph": "This is our contact page",
+    "title": "Contact Us",
+    "paragraph": "Connect with us for any inquiries, collaborations, or just to say hello. We value your feedback!",
     "dir": "ltr"
   }
 }

@@ -9,9 +9,10 @@ const AboutPage = () => {
     <>
       <Navbar />
       <div dir={direc}>
-        <h1>{t("title")}</h1>
-        <p>{t("paragraph")}</p>
-        <p>{t("text")}</p>
+        <div className="mt-5">
+          <h1 className="uppercase text-2xl">{t("title")}</h1>
+          <p>{t("paragraph")}</p>
+        </div>
       </div>
     </>
   );

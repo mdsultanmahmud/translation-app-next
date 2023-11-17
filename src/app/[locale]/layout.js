@@ -1,5 +1,5 @@
 import { notFound } from "next/navigation";
-
+import "../globals.css";
 // Can be imported from a shared config
 const locales = ["en", "bn", "ar"];
 
