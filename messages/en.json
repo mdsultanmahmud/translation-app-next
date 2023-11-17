@@ -3,5 +3,15 @@
     "title": "Hello world!",
     "paragraph": "the paragraph for testing",
     "dir": "ltr"
+  },
+  "About": {
+    "title": "About Page",
+    "paragraph": "This is about page",
+    "dir": "ltr"
+  },
+  "Contact": {
+    "title": "Contact Page",
+    "paragraph": "This is our contact page",
+    "dir": "ltr"
   }
 }

@@ -1,8 +1,9 @@
 import { useTranslations } from "next-intl";
-import Navbar from "./components/Navbar";
+import Link from "next/link";
+import Navbar from "../components/Navbar";
 
-export default function Index() {
-  const t = useTranslations("Index");
+const ContactPage = () => {
+  const t = useTranslations("Contact");
   const direc = t("dir");
   return (
     <>
@@ -10,7 +11,10 @@ export default function Index() {
       <div dir={direc}>
         <h1>{t("title")}</h1>
         <p>{t("paragraph")}</p>
+        <Link href={"/en/about"}>About</Link>
       </div>
     </>
   );
-}
+};
+
+export default ContactPage;
